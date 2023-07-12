@@ -38,7 +38,7 @@ class SignUpActivity : AppCompatActivity() {
                 intent=Intent(this,SignInActivity::class.java)
                 startActivity(intent)
             }.addOnFailureListener {
-                Toast.makeText(this,"We are sorry to register you!!..\nPlease try later...",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"We are sorry to register you..there is some problem..please wait!!..\nPlease try later...",Toast.LENGTH_SHORT).show()
             }
 
 
